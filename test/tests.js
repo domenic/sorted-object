@@ -15,8 +15,8 @@ test("works for empty objects", function (t) {
     t.end();
 });
 
-test("returns an object with null prototype", function (t) {
-    t.equal(Object.getPrototypeOf(sortedObject({})), null);
+test("returns an object with Object.prototype as its prototype", function (t) {
+    t.equal(Object.getPrototypeOf(sortedObject({})), Object.prototype);
     t.end();
 });
 
