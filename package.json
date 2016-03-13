@@ -6,7 +6,7 @@
     "keys",
     "object"
   ],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
   "repository": "domenic/sorted-object",
