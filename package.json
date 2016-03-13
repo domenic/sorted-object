@@ -7,14 +7,13 @@
     "object"
   ],
   "version": "1.0.0",
-  "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenic.me/)",
+  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/domenic/sorted-object.git"
-  },
-  "bugs": "http://github.com/domenic/sorted-object/issues",
+  "repository": "domenic/sorted-object",
   "main": "lib/sorted-object.js",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "test": "tape test/tests.js",
     "lint": "jshint lib && jshint test"
