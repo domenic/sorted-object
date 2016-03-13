@@ -16,10 +16,10 @@
   ],
   "scripts": {
     "test": "tape test/tests.js",
-    "lint": "jshint lib && jshint test"
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "jshint": "~2.4.3",
-    "tape": "~2.4.2"
+    "eslint": "^2.4.0",
+    "tape": "^4.5.1"
   }
 }
