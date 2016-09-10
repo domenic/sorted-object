@@ -8,7 +8,7 @@
   ],
   "version": "2.0.0",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
-  "license": "WTFPL",
+  "license": "(WTFPL OR MIT)",
   "repository": "domenic/sorted-object",
   "main": "lib/sorted-object.js",
   "files": [
